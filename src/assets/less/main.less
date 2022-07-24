@@ -1,0 +1,6 @@
+@mainWidth: calc(~"100vw - 270px - 20px - 20px");
+@songWidth: calc(~"100vw - 540px - 40px - 40px");
+
+.calcHeight(@w, @ow, @oh) {
+    height: calc(@w * @oh / @ow);
+}
